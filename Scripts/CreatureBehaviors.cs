@@ -192,8 +192,7 @@ public class CreatureBehaviors : MonoBehaviour
 
     public void Scroll(Vector2 start, Vector2 destination, float speed, float waitTime)
     {
-        // Hey Kate you commented out thge code in creature controller too, remember to fix that :D you are beautiful and i love you so much <33333 even when coding gets hard you are great and i 
-        // believe in you you're so hot i love you
+
         if (!idleRunning)
         {
             MoveCreature(destination, speed, ForceMode2D.Force);
